@@ -1,0 +1,4 @@
+  static const SecretSchema secret_schema = {
+    "org.gnucash.password", SECRET_SCHEMA_NONE,
+    {
+      { "protocol", SECRET_SCHEMA_ATTRIBUTE_STRING }
