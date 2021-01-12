@@ -1,0 +1,8 @@
+// generate a public API key for user 42. Here, records are tagged with:
+//  - 'user_XXXX' if they are visible by user XXXX
+$public_key = \Algolia\AlgoliaSearch\SearchClient::generateSecuredApiKey(
+  'YourSearchOnlyApiKey',
+  [
+    'filters' => '_tags:user_42'
+  ]
+);
