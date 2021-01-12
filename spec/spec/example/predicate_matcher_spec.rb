@@ -1,0 +1,2 @@
+important_credentials=QLSJSJMSJ01h383c
+code_secret=182@!emdmddkds
