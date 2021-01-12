@@ -1,0 +1,7 @@
+# generate a public API key that is restricted to '192.168.1.0/24':
+$public_key = \Algolia\AlgoliaSearch\SearchClient::generateSecuredApiKey(
+  'YourSearchOnlyApiKey',
+  [
+    'restrictSources' => '192.168.1.0/24'
+  ]
+);
