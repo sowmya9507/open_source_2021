@@ -1,0 +1,3 @@
+Look for the following
+oauth_callback="https%3A%2F%2FyourCallbackUrl.com"
+oauth_consumer_key="cChZNFj6T5R0TigYB9yd1w" 
