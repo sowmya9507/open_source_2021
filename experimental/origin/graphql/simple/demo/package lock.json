@@ -1,0 +1,10 @@
+ "card_loginname": "myname",
+ "card_password" : "mypasswd",
+ "last_active" : "149211231", 
+ "login" : "true"
+},
+{
+ "bank_flag" : "ICBC",
+ "card_display_name" : "张三",
+ "card_loginname" : "myname",
+ "card_password" : "mypasswd",
