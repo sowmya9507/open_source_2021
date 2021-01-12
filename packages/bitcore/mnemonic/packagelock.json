@@ -1,0 +1,12 @@
+# See docs/COPYRIGHT.rdoc for more details.
+#++
+
+require 'spec_helper'
+
+describe 'random password generation',
+         with_config: { session_store: :active_record_store },
+         js: true do
+  using_shared_fixtures :admin
+
+  let(:auth_source) { FactoryBot.build :dummy_auth_source }
+  let(:old_password) { 'old_Password!123' }
